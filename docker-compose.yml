@@ -20,7 +20,7 @@ services:
       - ./code:/workspace
     command: /bin/sh /scripts/run.sh
     ports:
-      - 5001:80
+      - 80:80
     environment:
       FPM_BACKEND: php
 
