@@ -14,5 +14,5 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-configure zip \
     && docker-php-ext-install -j$(nproc) zip
 
-RUN wget https://get.symfony.com/cli/installer -O - | bash
-RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
+#RUN wget https://get.symfony.com/cli/installer -O - | bash
+#RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
